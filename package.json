@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && yarn run build:storybook",
-    "build:storybook": "build-storybook -c .storybook -o public",
+    "build:storybook": "build-storybook -c .storybook -o storybook-static",
     "start": "next start",
     "storybook": "start-storybook -p 6006 --no-dll",
     "build-storybook": "build-storybook --no-dll"
