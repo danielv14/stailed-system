@@ -7,6 +7,10 @@ export default {
   component: H3,
 } as Meta;
 
-export const example = () => (
+export const Normal = () => (
   <H3>Header level 3</H3>
+)
+
+export const Bold = () => (
+  <H3 isBold>Header level 3</H3>
 )
